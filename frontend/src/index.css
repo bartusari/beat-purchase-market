@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-bgPrimary text-textPrimary;
+  }
+}
+
+.overflow-y-auto::-webkit-scrollbar {
+  width: 5px;
+}
+
+.overflow-y-auto::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.overflow-y-auto::-webkit-scrollbar-thumb {
+  background: #374151;
+  border-radius: 20px;
+}
+
+.overflow-y-auto::-webkit-scrollbar-thumb:hover {
+  background: #4b5563;
+}
